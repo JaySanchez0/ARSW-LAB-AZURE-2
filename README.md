@@ -36,8 +36,16 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ![](images/part3/part3-test-function.png)
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
+
 ![img](solucion/resultado_postman.jpg)
+
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+![img](solucion/fiborecursivo.PNG)
+
+![img](solucion/fiborecursivo2.PNG)
+
+Por la memorizacion cuando se consulta un numero menor, como ya se encuentra en memoria, realizar dicha consulta es constante dentro de una lista.
 
 **Preguntas**
 
