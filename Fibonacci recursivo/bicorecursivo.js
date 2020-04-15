@@ -22,8 +22,10 @@ module.exports = async function (context, req) {
     else if (nth === 1)
         answer = nth_1
     else {
-        for(var i=0;i<nth+1;i++){
-            memo.push(-1);
+        if(nth+1>memo.length){
+            for(var i=0;i<nth+1;i++){
+                memo.push(-1);
+            }
         }
         answer = fiborecursivo(nth);
     }
