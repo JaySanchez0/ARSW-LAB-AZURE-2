@@ -23,6 +23,7 @@ module.exports = async function (context, req) {
         answer = nth_1
     else {
         if(nth+1>memo.length){
+            memo = [];
             for(var i=0;i<nth+1;i++){
                 memo.push(-1);
             }
