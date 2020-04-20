@@ -65,7 +65,26 @@ Por la memorizacion cuando se consulta un numero menor, como ya se encuentra en 
 
 *El Storage Account nos proporciona un espacio de nombres unico para poder almacenar todos los datos provenientes de Azure Storage, consulatados mediante HTTP*
 
+
+
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+
+- Consumo
+- Premium
+- Azure App Service
+
+La diferencia de elllos se encuentran en los enfoques particulares que cada cual tiene por ejemplo consumo es el plan mas basico el cual se basa exclusivamente en demanda, el plan premium esta enfocado a tener memoria para poder reutilizar los trabajos anteriores y App service se encuentra enfocado para quienes necesitan ejecutar tareas que tienen una duracion considerable.
+
 * ¿Por qué la memoization falla o no funciona de forma correcta?
+
+Dado a que los lenguajes de programacion ponen un limite al numero de llamados recursivos que se puden realizar y aunque almacenamos en memoria este debe retroceder una cantidad considerable.
+
 * ¿Cómo funciona el sistema de facturación de las Function App?
+
+Ejecuciones: Se Factura en base al numero total de ejecuciones solicitadas cada mes para las funciones.
+
+Consumo de recurso: Se factura en base a la memoria promedio en GB/s por tiempo que se demora en ejecutar la tarea 	
+
+Premium: En este plan se factura en base a la CPU y la memoria que utiliza la function app.
+
 * Informe
