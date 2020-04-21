@@ -88,3 +88,5 @@ Consumo de recurso: Se factura en base a la memoria promedio en GB/s por tiempo 
 Premium: En este plan se factura en base a la CPU y la memoria que utiliza la function app.
 
 * Informe
+
+Cuando ejecutamos sobre las functions, nosotros podemos ver que este soporta menos iteraciones, caso 1000000, pudimos evidenciar que este sobre la function recursiva no trabajaba mientras que la version iterativa tenia la capacidad de ejecutar esta operacion, debido a que los lenguajes de programacion tiene un limite de cuantas vecez permite realizar llamados recursivos, la memorizacion la utilizamos como estrategia para poder utilizar datos calculados anteriormente para de esta manera no tener que volver efectivamente sobre los casos base, pero ciertamente podemos evidenciar que realemente esto no sirvio como garantia que sea posible llegar hasta este numero.
